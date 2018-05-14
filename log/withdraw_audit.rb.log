@@ -1,0 +1,81 @@
+# Logfile created on 2018-05-02 17:24:58 by logger.rb/47272
+I, [2018-05-02T17:24:59.197255 #2717]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2018-05-02T17:24:59.197643 #2717] ERROR -- : No such file or directory @ rb_sysopen - /Users/yyong/rbdev/peatio/log/withdraw_audit.rb.log (Errno::ENOENT)
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/open-uri.rb:36:in `initialize'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/open-uri.rb:36:in `open'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/open-uri.rb:36:in `open'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/logger.rb:628:in `open_logfile'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/logger.rb:584:in `initialize'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/logger.rb:318:in `new'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/logger.rb:318:in `initialize'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons/application.rb:353:in `new'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons/application.rb:353:in `exception_log'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons/application.rb:165:in `block in start_load'
+I, [2018-05-02T17:24:59.197807 #2717]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2018-05-02T17:24:59.198575 #2717] ERROR -- : stream closed (IOError)
+
+E, [2018-05-02T17:24:59.199871 #2717] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2018-05-02T17:24:59.200037 #2717] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2018-05-02T17:24:59.200486 #2717] ERROR -- : exception reentered (fatal)
+
+E, [2018-05-02T17:24:59.272426 #2717] ERROR -- : Value will be available once the pipeline executes. (Redis::FutureNotReady)
+
+E, [2018-05-02T17:24:59.303853 #2717] ERROR -- : no such frame (ArgumentError)
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/binding_of_caller-0.7.2/lib/binding_of_caller/mri2.rb:25:in `frame_binding'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/binding_of_caller-0.7.2/lib/binding_of_caller/mri2.rb:25:in `block (2 levels) in callers'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/binding_of_caller-0.7.2/lib/binding_of_caller/mri2.rb:23:in `loop'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/binding_of_caller-0.7.2/lib/binding_of_caller/mri2.rb:23:in `block in callers'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/binding_of_caller-0.7.2/lib/binding_of_caller/mri2.rb:21:in `open'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/binding_of_caller-0.7.2/lib/binding_of_caller/mri2.rb:21:in `callers'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/better_errors-1.1.0/lib/better_errors/core_ext/exception.rb:9:in `block in <class:Exception>'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/open-uri.rb:36:in `initialize'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/open-uri.rb:36:in `open'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/open-uri.rb:36:in `open'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/logger.rb:628:in `open_logfile'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/logger.rb:584:in `initialize'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/logger.rb:318:in `new'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/logger.rb:318:in `initialize'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons/application.rb:353:in `new'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons/application.rb:353:in `exception_log'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons/application.rb:165:in `block in start_load'
+E, [2018-05-02T17:24:59.304205 #2717] ERROR -- : No such file or directory @ rb_sysopen - /Users/yyong/rbdev/peatio/log/withdraw_audit.rb.log (Errno::ENOENT)
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/open-uri.rb:36:in `initialize'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/open-uri.rb:36:in `open'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/open-uri.rb:36:in `open'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/logger.rb:628:in `open_logfile'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/logger.rb:584:in `initialize'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/logger.rb:318:in `new'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/logger.rb:318:in `initialize'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons/application.rb:353:in `new'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons/application.rb:353:in `exception_log'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/daemons-1.1.9/lib/daemons/application.rb:165:in `block in start_load'
+I, [2018-05-02T17:38:05.965037 #15748]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2018-05-02T17:38:05.967356 #15748] ERROR -- : Value will be available once the pipeline executes. (Redis::FutureNotReady)
+
+I, [2018-05-02T17:38:05.968097 #15748]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2018-05-02T17:38:05.969905 #15748] ERROR -- : stream closed (IOError)
+
+E, [2018-05-02T17:38:05.972429 #15748] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2018-05-02T17:38:05.972687 #15748] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2018-05-02T17:38:05.973481 #15748] ERROR -- : exception reentered (fatal)
+
+E, [2018-05-02T17:38:06.051852 #15748] ERROR -- : Value will be available once the pipeline executes. (Redis::FutureNotReady)
+
+I, [2018-05-10T15:14:39.558716 #19182]  INFO -- : *** below you find the most recent exception thrown, this will be likely (but not certainly) the exception that made the application exit abnormally ***
+E, [2018-05-10T15:14:39.568132 #19182] ERROR -- : Value will be available once the pipeline executes. (Redis::FutureNotReady)
+
+I, [2018-05-10T15:14:39.568612 #19182]  INFO -- : *** below you find all exception objects found in memory, some of them may have been thrown in your application, others may just be in memory because they are standard exceptions ***
+E, [2018-05-10T15:14:39.569595 #19182] ERROR -- : stream closed (IOError)
+
+E, [2018-05-10T15:14:39.577389 #19182] ERROR -- : failed to allocate memory (NoMemoryError)
+
+E, [2018-05-10T15:14:39.577629 #19182] ERROR -- : stack level too deep (SystemStackError)
+
+E, [2018-05-10T15:14:39.578951 #19182] ERROR -- : exception reentered (fatal)
+
+E, [2018-05-10T15:14:39.817722 #19182] ERROR -- : Value will be available once the pipeline executes. (Redis::FutureNotReady)
+

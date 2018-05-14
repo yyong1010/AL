@@ -1,0 +1,7 @@
+websocket_api.rb: process with pid 2740 started.
+I, [2018-05-02T16:30:23.055623 #2740]  INFO -- : Connected to AMQP broker.
+websocket_api.rb: process with pid 15778 started.
+I, [2018-05-02T17:26:53.685860 #15778]  INFO -- : Connected to AMQP broker.
+websocket_api.rb: process with pid 19204 started.
+I, [2018-05-02T17:39:48.097580 #19204]  INFO -- : Connected to AMQP broker.
+E, [2018-05-03T06:43:38.671692 #19204] ERROR -- : [amqp] Detected missing server heartbeats

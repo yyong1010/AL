@@ -1,0 +1,88 @@
+peatio:amqp:withdraw_coin: process with pid 2793 started.
+I, [2018-05-02T16:30:28.795607 #2793]  INFO -- : Connected to AMQP broker (prefetch: default)
+Terminating threads ..
+Stopped.
+peatio:amqp:withdraw_coin: process with pid 15824 started.
+I, [2018-05-02T17:26:59.640340 #15824]  INFO -- : Connected to AMQP broker (prefetch: default)
+Terminating threads ..
+Stopped.
+peatio:amqp:withdraw_coin: process with pid 19246 started.
+I, [2018-05-02T17:39:52.821306 #19246]  INFO -- : Connected to AMQP broker (prefetch: default)
+Terminating threads ..
+Stopped.
+peatio:amqp:withdraw_coin: process with pid 56703 started.
+I, [2018-05-14T16:03:21.062131 #56703]  INFO -- : Connected to AMQP broker (prefetch: default)
+I, [2018-05-14T16:03:21.071006 #56703]  INFO -- : Received: {"id":4,"locale":"en"}
+-----------------------host------------
+scheme
+user
+password
+host
+port
+path
+query
+opaque
+fragment
+parser
+Your_eth_server_ip
+80
+-----------------------end host------------
+F, [2018-05-14T16:03:21.674870 #56703] FATAL -- : getaddrinfo: nodename nor servname provided, or not known (SocketError)
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/net/http.rb:879:in `initialize'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/net/http.rb:879:in `open'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/net/http.rb:879:in `block in connect'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/timeout.rb:74:in `timeout'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/net/http.rb:878:in `connect'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/net/http.rb:863:in `do_start'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/net/http.rb:852:in `start'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/net/http.rb:1375:in `request'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/rest-client-1.6.8/lib/restclient/net_http_ext.rb:51:in `request'
+/Users/yyong/rbdev/peatio/app/services/coin_rpc.rb:78:in `http_post_request'
+/Users/yyong/rbdev/peatio/app/services/coin_rpc.rb:61:in `handle'
+/Users/yyong/rbdev/peatio/app/services/coin_rpc.rb:23:in `method_missing'
+/Users/yyong/rbdev/peatio/app/models/worker/withdraw_coin.rb:30:in `block in process'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/activerecord-4.0.12/lib/active_record/connection_adapters/abstract/database_statements.rb:203:in `block in transaction'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/activerecord-4.0.12/lib/active_record/connection_adapters/abstract/database_statements.rb:211:in `within_new_transaction'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/activerecord-4.0.12/lib/active_record/connection_adapters/abstract/database_statements.rb:203:in `transaction'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/activerecord-4.0.12/lib/active_record/transactions.rb:209:in `transaction'
+/Users/yyong/rbdev/peatio/app/models/worker/withdraw_coin.rb:18:in `process'
+/Users/yyong/rbdev/peatio/lib/daemons/amqp_daemon.rb:61:in `block (2 levels) in <top (required)>'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/bunny-1.2.1/lib/bunny/consumer.rb:56:in `call'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/bunny-1.2.1/lib/bunny/consumer.rb:56:in `call'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/bunny-1.2.1/lib/bunny/channel.rb:1672:in `block in handle_frameset'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/bunny-1.2.1/lib/bunny/consumer_work_pool.rb:84:in `call'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/bunny-1.2.1/lib/bunny/consumer_work_pool.rb:84:in `block (2 levels) in run_loop'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/bunny-1.2.1/lib/bunny/consumer_work_pool.rb:80:in `loop'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/bunny-1.2.1/lib/bunny/consumer_work_pool.rb:80:in `block in run_loop'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/bunny-1.2.1/lib/bunny/consumer_work_pool.rb:79:in `catch'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/bunny-1.2.1/lib/bunny/consumer_work_pool.rb:79:in `run_loop'
+F, [2018-05-14T16:03:21.675692 #56703] FATAL -- : /Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/net/http.rb:879:in `initialize'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/net/http.rb:879:in `open'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/net/http.rb:879:in `block in connect'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/timeout.rb:74:in `timeout'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/net/http.rb:878:in `connect'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/net/http.rb:863:in `do_start'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/net/http.rb:852:in `start'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/2.2.0/net/http.rb:1375:in `request'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/rest-client-1.6.8/lib/restclient/net_http_ext.rb:51:in `request'
+/Users/yyong/rbdev/peatio/app/services/coin_rpc.rb:78:in `http_post_request'
+/Users/yyong/rbdev/peatio/app/services/coin_rpc.rb:61:in `handle'
+/Users/yyong/rbdev/peatio/app/services/coin_rpc.rb:23:in `method_missing'
+/Users/yyong/rbdev/peatio/app/models/worker/withdraw_coin.rb:30:in `block in process'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/activerecord-4.0.12/lib/active_record/connection_adapters/abstract/database_statements.rb:203:in `block in transaction'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/activerecord-4.0.12/lib/active_record/connection_adapters/abstract/database_statements.rb:211:in `within_new_transaction'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/activerecord-4.0.12/lib/active_record/connection_adapters/abstract/database_statements.rb:203:in `transaction'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/activerecord-4.0.12/lib/active_record/transactions.rb:209:in `transaction'
+/Users/yyong/rbdev/peatio/app/models/worker/withdraw_coin.rb:18:in `process'
+/Users/yyong/rbdev/peatio/lib/daemons/amqp_daemon.rb:61:in `block (2 levels) in <top (required)>'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/bunny-1.2.1/lib/bunny/consumer.rb:56:in `call'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/bunny-1.2.1/lib/bunny/consumer.rb:56:in `call'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/bunny-1.2.1/lib/bunny/channel.rb:1672:in `block in handle_frameset'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/bunny-1.2.1/lib/bunny/consumer_work_pool.rb:84:in `call'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/bunny-1.2.1/lib/bunny/consumer_work_pool.rb:84:in `block (2 levels) in run_loop'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/bunny-1.2.1/lib/bunny/consumer_work_pool.rb:80:in `loop'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/bunny-1.2.1/lib/bunny/consumer_work_pool.rb:80:in `block in run_loop'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/bunny-1.2.1/lib/bunny/consumer_work_pool.rb:79:in `catch'
+/Users/yyong/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/bunny-1.2.1/lib/bunny/consumer_work_pool.rb:79:in `run_loop'
+Terminating threads ..
+Stopped.
